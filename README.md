@@ -10,7 +10,7 @@ Add this right after ```<body>``` tag
 $(function(){ //on document ready
     $(document).scroll(function (e) { //bind scroll event
 
-        var intBottomMargin = 200; //Pixels from bottom when script should trigger
+        var intBottomMargin = 10; //Pixels from bottom when script should trigger
 
         //if less than intBottomMargin px from bottom
         if ($(window).scrollTop() >= $(document).height() - $(window).height() - intBottomMargin) {
@@ -50,7 +50,7 @@ And add same code after ```<body>``` tag:
 $(function(){ //on document ready
     $(document).scroll(function (e) { //bind scroll event
 
-        var intBottomMargin = 200; //Pixels from bottom when script should trigger
+        var intBottomMargin = 10; //Pixels from bottom when script should trigger
 
         //if less than intBottomMargin px from bottom
         if ($(window).scrollTop() >= $(document).height() - $(window).height() - intBottomMargin) {
